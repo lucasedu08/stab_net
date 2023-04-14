@@ -58,9 +58,11 @@ menu > a{
     text-decoration: none;
     font-size: .9em;
 }
-menu > a:hover{
- color: rgba(255, 255, 255, 0.808);
- text-decoration: overline 3px solid orangered;
+ menu > a:hover{
+    color: rgba(255, 255, 255, 0.808);
+    text-decoration:  overline 3px solid orangered ;
+   transition-duration: 1s;
+   animation: backwards;
 }
 .curio{
     position: absolute;
