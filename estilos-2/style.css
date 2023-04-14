@@ -19,7 +19,6 @@ header{
     background-color: #4492DF;
     padding: 12px;
   margin-top: -5px;
-  box-shadow: 1px 2px 7px rgba(0, 0, 0, 0.307);
 }
 header > h1{
     margin-left: 65px;
@@ -41,7 +40,7 @@ span#lupa:hover{
  top: -4px;
  border-radius: 5px;
  padding: 3px;
- width: 180px;
+ width: 200px;
 }
 .img-glob{
    width: 50px;
@@ -61,14 +60,8 @@ menu > a{
 }
 menu > a:hover{
  color: rgba(255, 255, 255, 0.808);
- text-decoration:  overline 3px solid orangered ;
-transition-duration: 1s;
-animation: backwards;
+ text-decoration: overline 3px solid orangered;
 }
-
-  
-  /* The element to apply the animation to */
-
 .curio{
     position: absolute;
 
@@ -97,8 +90,8 @@ main{
     margin: auto;
 }
 article{
-    text-align: center;
     padding: 10px;
+    text-align: center;
 }
 .pala > a{
     background-color: #3372AC;
@@ -109,65 +102,116 @@ article{
     text-decoration: none;
    
 }
-.bil{
-    width: 700px;
-    height: 500px;
-    overflow: hidden;
-    overflow: hidden;
-    border: 2px solid #000;
-    -webkit-transition: -webkit-transform .5s ease;
-    transition: transform .5s ease;
-    cursor: pointer;
-}
-
-.bil:hover{
- box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.426);
-
-}
-.bil::selection{
-background-color: black;
-}
-
-.tec{
-position: relative;
-    font-size: 1em;
-    font-weight: normal;
-    line-height: 25px;
-width: 500px;
-   left: 136px;
-
-}
-div{
-    position: relative;
+.comp-1{
     width: 600px;
+    height: 600px;
+}
+.font{
+    position: relative;
+    background-color: hsla(0, 0%, 90%, 0.707);
+    top: -20px;
+    padding-left: 240px;
+    padding-right: 240px;
+}
+.fonts{
+    position: relative;
+    background-color: #FFFFFF;
+    top: -4px;
+    padding-left: 267px;
+    padding-right: 267px;
+    border-radius: 0px 0px 10px 10px;
+}
+.comp-img{
+margin: auto;
+width: 500px;
+height: 500px;
+}
+.comp{
+   line-height: 20px;
+width: 500px;
+}
+.comp2{
     text-align: justify;
-
-    left: 370px;
+    width: 740px;
 }
-div > h2{
-    position: relative;
+.img-comp{
+    position: absolute;
+    width: 200px;
+    height: 100px;
 
-    left: 165px;
+    left: 820px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.363);
+}
+.comp3{
+    width: 600px;
+   margin: auto;
+   line-height: 20px;
 
 }
-.div{
-    position: relative;
-    width: 440px;
+.aling{
+    margin: auto;
     text-align: center;
-    left: 160px;
 }
-.his{
+h2{
+    color: #383838;
+}
+aside{
     position: relative;
-    left: -10px;
+list-style-position: inside;
+
 }
-.material-symbols-outlined {
-    font-variation-settings:
-    'FILL' 0,
-    'wght' 400,
-    'GRAD' 0,
-    'opsz' 48}
-    .maxSize {
-        height: 70%;
-        width: 70%;
-    }
-    
+.li1{
+text-align: left;
+
+}
+
+.li2{
+    text-align: left;
+
+}
+.li3{
+    text-align: left;
+
+}
+.li4{
+    text-align: left;
+
+}
+.li5{
+    text-align: left;
+
+}
+.li6{
+
+    text-align: left;
+}
+.li7{
+    text-align: left;
+
+}
+.letra{
+    color: #343A40;
+}
+.letra1{
+    font-size: 1.8em;
+}
+.i{
+width: 655px;
+}
+.m{
+width: 655px;
+}
+.g{
+    width: 655px;
+}
+.historia{
+    width: 655px;
+}
+.computador{
+    width: 655px;
+}
+.ibm{
+    text-align: justify;
+    line-height: 20px;
+}
+
