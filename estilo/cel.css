@@ -10,13 +10,16 @@
 menu{
     display: none;
 }
+hr{
+    width: 400px;
+} 
 
 .bil{
     position: relative;
     width: 459px;
     height: 400px;
 
-    left: 1px;
+    left: -10px;
 }
 header{
     height: 70px;
