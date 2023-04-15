@@ -1,1 +1,11 @@
 @charset "utf-8";
+
+
+    @media (max-width: 986px){
+        body, html {
+        overflow-x: hidden!important;
+        }
+        }
+        body{
+            overflow-x: hidden;
+        }
