@@ -1,17 +1,13 @@
 @charset "utf-8";
 
 
-@media (max-width: 786px){
-    body, html {
-    overflow-x: hidden!important;
-    }
-    }
+
 
 menu{
     display: none;
 }
 hr{
-    width: 400px;
+    width: 500px;
 } 
 
 .bil{
@@ -23,7 +19,7 @@ hr{
 }
 header{
     height: 70px;
-    width: 460px;
+    width: 520px;
 }
 header > h1{
     
@@ -52,7 +48,7 @@ width: 500px;
 }
 main{
     position: absolute;
-    width: 483px;
+    width: 508px;
 }
 
 @media screen and(min-width:500px) and(max-width:667px) {
