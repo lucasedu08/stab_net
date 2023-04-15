@@ -7,7 +7,9 @@ padding: 0;
 header,body,article,header > h1{
     width: 100%;
 }
-
+hr{
+    width: 770px;
+}
 body{
     font-family: Arial, Helvetica, sans-serif;
 text-align: justify;
@@ -96,7 +98,7 @@ animation: backwards;
 }
 main{
     background-color: rgb(243, 230, 212);
-    width: 800px;
+    width: 815px;
     margin: auto;
 }
 article{
