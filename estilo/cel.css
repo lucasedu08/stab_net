@@ -1,12 +1,11 @@
 @charset "utf-8";
-body{
-    height: 100%;
-}
 
 
-body{
-    width: 0vw;
-}
+@media (max-width: 786px){
+    body, html {
+    overflow-x: hidden!important;
+    }
+    }
 
 menu{
     display: none;
