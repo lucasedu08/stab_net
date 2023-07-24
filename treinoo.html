@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="number" name="text1" id="text1">
+    <input type="number" name="text2" id="text2">
+    <input type="button" value="verificar" onclick="clica()" >
+    <div id="res"></div>
+<script>
+    function clica() {
+        var tex1 = window.document.getElementById('text1')
+        var tex2 = window.document.getElementById('text2')
+        var res = window.document.getElementById('res')
+        var n1 = Number(tex1.value)
+        var n2 = Number(tex2.value)
+        var s = n1 + n2
+        res.innerHTML = `A soma dos valores ${n1} e ${n2} é igual a ${s}`
+    }
+</script>
+
+</body>
+</html>

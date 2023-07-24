@@ -1,0 +1,329 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+@font-face {
+    font-family: Raleway ;
+    src:'Raleway' url('Raleway');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@1,200&display=swap');
+
+
+
+*{
+
+    margin: 0;
+padding: 0;
+}
+header,body,article,header > h1{
+
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+text-align: justify;
+height: 120%;
+
+    
+}
+@charset "utf-8";
+
+*{
+    margin: 0;
+padding: 0;
+}
+header,body,article,header > h1{
+
+}
+.hr{
+    width: 770px;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+text-align: justify;
+width: 100%;
+background-color: rgb(255, 255, 255);
+    
+}
+header{
+    margin: 0;
+       padding: 0;
+       width: 1960px;
+       height: 90px;
+       color: rgb(238, 238, 238);
+       background-color: #4492DF;
+       padding: 32px;
+     margin-top: -5px;
+     box-shadow: 1px 2px 7px rgba(0, 0, 0, 0.307);
+   }
+   header > h1{
+       margin-left: 65px;
+       font-size: 2.4em;
+       margin-bottom: 20px;
+   }
+
+span#lupa{
+    position: relative;
+    
+    left: 800px;
+    }
+    span#lupa:hover{
+        cursor: pointer;
+    }
+.input{
+    position: relative;
+  width: 50px;
+  font-size: .4em;
+    left: 1198px;
+    top: -30px;
+    box-shadow: -1px -1px 1px 1px ;
+    border-radius: 9px;
+    padding: 3px;
+    width: 180px;
+   }
+.img-glob{
+    width: 80px;
+    height: 80px;
+ }
+
+.header-h1{
+    font-size: 3.6em;
+}
+ menu > a{
+    position: absolute;
+
+    left: 190px;
+    top: 40px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 1.3em;
+}
+menu > a:hover{
+ color: rgba(255, 255, 255, 0.808);
+ text-decoration:  overline 3px solid orangered ;
+transition-duration: 1s;
+animation: backwards;
+}
+
+  
+  /* The element to apply the animation to */
+
+.curio{
+    position: absolute;
+    color: rgba(255, 255, 255, 0.808);
+    left: 1240px;
+    top: 50px;
+    text-decoration: 4px overline orangered;
+    font-size: 1.4em;
+}
+.curio:hover{
+    text-decoration: 4px overline orangered;
+}
+
+.mundo{
+    position: absolute;
+    left: 1040px;
+    top: 50px;
+    font-size: 1.4em;
+}
+.mundo:hover{
+    text-decoration: 4px overline orangered;
+}
+.cien{
+    position: absolute;
+    left:755px;
+    top: 50px;
+    font-size: 1.4em;
+}
+.cien:hover{
+    text-decoration: 4px overline orangered;
+}
+.hist{
+    position: absolute;
+    left: 610px;
+    top: 50px;
+    font-size: 1.4em;
+}
+.hist:hover{
+    text-decoration: 4px overline orangered;
+}
+.viag{
+    position: absolute;
+    font-size: 1.4em;
+    top: 50px;
+    left: 480px;
+}
+.viag:hover{
+    text-decoration: 4px overline orangered;
+}
+article
+{
+    padding: 10px;
+}
+
+.div{
+
+}
+
+.div-1{
+text-align: center;
+
+position: relative;
+
+left: -240px;
+}
+
+.div > h1{
+color: #404040;
+font-size: 2.3em;
+text-align: center;
+}
+.div > p {
+    font-size: 1.3em;
+    font-weight: normal;
+    text-align: center;
+}
+
+img#img-1{
+    position: relative;
+max-width: 540px;
+
+left: -190px;
+margin: auto;
+}
+
+img#img-2{
+    max-width: 390px;  
+
+    margin: auto;
+
+
+
+}
+.link-1{
+    background-color: #4695e3;
+    color: white;
+   text-decoration: none;
+   padding: 10px;
+   transition-duration: .8s;
+   position: relative;
+   left: -396px;
+
+}
+
+.link-1:hover{
+    background-color: black;
+}
+
+.h1-1{
+   text-align: justify;
+   text-decoration: none;
+   color: black;
+   transition-duration: .9s;
+font-size: 1.8em;
+   width: 480px;
+
+
+   position: relative;
+
+left: 153px;
+}
+
+
+.h1-1:hover{
+    color: #4492DF;
+}
+
+.p-1{
+    font-family: 'Mulish', sans-serif;
+    width: 370px;
+    color: #404040;
+    font-size: 1.4em;
+    font-weight: normal;
+    line-height: 24px;
+position: relative;
+
+left: 437px;
+}
+.link-2{
+    background-color: #4695e3;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    transition-duration: .9s;
+}
+.link-2:hover{
+    background-color: black;
+}
+
+
+
+
+
+/* Estilos do modal */
+.modal {
+    display: none; /* Esconder o modal por padrão */
+    position: fixed; /* Posição fixa para cobrir a página */
+    z-index: 1; /* Ficar na frente de outros elementos */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto; /* Habilitar o scroll */
+    background-color: rgba(0,0,0,0.4); /* Cor de fundo com transparência */
+  }
+  
+  /* Conteúdo do modal */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 700px;
+  }
+  
+  /* Botão de fechar do modal */
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  /* Botões do modal */
+  .modal-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .modal-buttons button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .modal-buttons button:hover {
+    background-color: #3e8e41;
+  }
+  
+  /* Desativar o botão de aceitar até que o usuário role até o final dos termos e condições */
+  #aceitar-termos:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+  
+  

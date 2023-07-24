@@ -1,0 +1,226 @@
+@charset "utf-8";
+/*para celular 'mobile' */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+@font-face {
+    font-family: Raleway ;
+    src:'Raleway' url('Raleway');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@1,200&display=swap');
+
+
+
+*{
+
+    margin: 0;
+padding: 0;
+}
+header,body,article,header > h1{
+
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+text-align: justify;
+height: 120%;
+
+    
+}
+@charset "utf-8";
+
+*{
+    margin: 0;
+padding: 0;
+}
+header,body,article,header > h1{
+
+}
+.hr{
+    width: 770px;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+text-align: justify;
+width: 100%;
+background-color: rgb(255, 255, 255);
+    
+}
+header{
+    margin: 0;
+       padding: 0;
+       width: 670px;
+       color: rgb(238, 238, 238);
+       background-color: #4492DF;
+       padding: 32px;
+     margin-top: -5px;
+     box-shadow: 1px 2px 7px rgba(0, 0, 0, 0.307);
+   }
+   header > h1{
+       margin-left: 65px;
+       font-size: 2.4em;
+       margin-bottom: 20px;
+   }
+
+span#lupa{
+    position: relative;
+    
+    left: 800px;
+    }
+    span#lupa:hover{
+        cursor: pointer;
+    }
+.input{
+    position: relative;
+   
+    left: 808px;
+    top: -4px;
+    border-radius: 5px;
+    padding: 3px;
+    width: 180px;
+   }
+.img-glob{
+    width: 50px;
+    height: 50px;
+ }
+
+
+ menu > a{
+    position: absolute;
+
+    left: 190px;
+    top: 40px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 1.3em;
+}
+menu > a:hover{
+ color: rgba(255, 255, 255, 0.808);
+ text-decoration:  overline 3px solid orangered ;
+transition-duration: 1s;
+animation: backwards;
+}
+
+  
+  /* The element to apply the animation to */
+
+.curio{
+    position: absolute;
+    font-size: 1.1em;
+    left: 900px;
+    text-decoration: overline orangered;
+}
+
+.mundo{
+    position: absolute;
+    left: 750px;
+    font-size: 1.1em;
+}
+.cien{
+    position: absolute;
+    left:550px;
+    font-size: 1.1em;
+}
+.hist{
+    position: absolute;
+    left: 450px;
+    font-size: 1.1em;
+}
+.viag{
+    position: absolute;
+    font-size: 1.1em;
+    left: 350px;
+}
+article
+{
+    padding: 10px;
+}
+
+.div{
+
+}
+
+.div-1{
+text-align: center;
+
+position: relative;
+
+left: -240px;
+}
+
+.div > h1{
+color: #404040;
+font-size: 2.3em;
+text-align: center;
+}
+.div > p {
+    font-size: 1.3em;
+    font-weight: normal;
+    text-align: center;
+}
+
+img#img-1{
+max-width: 390px;
+
+margin: auto;
+}
+
+img#img-2{
+    max-width: 390px;  
+
+    margin: auto;
+
+
+
+}
+.link-1{
+    background-color: #4695e3;
+    color: white;
+   text-decoration: none;
+   padding: 10px;
+   transition-duration: .8s;
+   position: relative;
+   left: -136px;
+
+}
+
+.link-1:hover{
+    background-color: black;
+}
+
+.h1-1{
+   text-align: justify;
+   text-decoration: none;
+   color: black;
+   transition-duration: .9s;
+font-size: 1.4em;
+   width: 360px;
+
+
+   position: relative;
+
+left: 116px;
+}
+
+
+.h1-1:hover{
+    color: #4492DF;
+}
+
+.p-1{
+    font-family: 'Mulish', sans-serif;
+    width: 350px;
+    color: #404040;
+    font-size: 1.1em;
+    font-weight: normal;
+    line-height: 24px;
+position: relative;
+
+left: 235px;
+}
+.link-2{
+    background-color: #4695e3;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
